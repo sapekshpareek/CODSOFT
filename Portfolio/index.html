@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="#home">Portfolio</a>
+        </div>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#project">Projects</a>
+            <a href="#contact">Contact Me</a>
+            <a href="Resume.pdf" target="_blank">Resume</a>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="main">
+            <h1>Hi, This is <br>Sapeksh Pareek<span>.</span></h1>
+            <p>I'm a <span class="auto-input"></span></p>
+        </div>
+    </section>
+    <div class="container-about">
+        <section id="about">
+            <div class="about-image">
+                <img src="https://media.licdn.com/dms/image/D4D03AQETJG1mnvEYtg/profile-displayphoto-shrink_800_800/0/1687893470387?e=1697673600&v=beta&t=NM7LuslJxQ4fE-Az9S-ge7UfLKjXSymlErel33S_Tjo" alt="ERROR LOADING IMAGE">
+            </div>
+            <div class="about-txt">
+                <h2 class="common-heading">About Me</h2>
+                <p>
+                    Motivated and dedicated computer science student with a strong passion for technology and problem-solving. Seeking an internship/entry-level position to leverage my technical skills and knowledge gained through academic coursework and practical projects. Committed to contributing to the success of an innovative organization while continuously expanding my skill set and gaining real-world experience in the field of computer science.
+                </p>
+            </div>
+        </section>
+    </div>
+    <div class="container-bio">
+        <section id="skills">
+            <div class="grid">
+                <div class="bio-image">
+                    <img src="skill.gif" alt="ERROR LOADING GIF" />
+                </div>
+                <div class="bio-data">
+                    <h2 class="heading">My Skills</h2>
+                    <p>A highly skilled individual proficient in HTML, CSS, JavaScript, coding, and data structures is a
+                        competent web developer with a strong foundation in front-end development. They possess a deep
+                        understanding of HTML (Hypertext Markup Language) and CSS (Cascading Style Sheets), enabling
+                        them to create visually appealing and responsive web pages.
+                    </p>
+                    <a href="Resume.pdf" target="_blank" class="read">Download
+                        CV</a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section id="project">
+        <div class="max-width">
+            <h2 class="title">My Projects</h2>
+            <div class="carousel owl-carousel">
+              <div class="card">
+                <div class="box">
+                  <img src="https://source.unsplash.com/720x600/?shopping" alt="ERROR LOADING IMAGE" />
+                  <div class="text">Landing Page</div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="box">
+                  <img src="https://source.unsplash.com/720x600/?portfolio" alt="ERROR LOADING IMAGE" />
+                  <div class="text">Portfolio</div>
+                </div>
+              </div>
+              </div>
+              <div class="card">
+                <div class="box">
+                  <img src="./spotify.png" alt="ERROR LOADING IMAGE" />
+                  <div class="text">Spotify Clone</div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+    <div class="container-contact">
+        <section id="contact">
+            <div class="contact-info">
+                <div><i class="fas fa-map-marker-alt">&nbsp;&nbsp;Khilchipur, Madhya Paradesh</i></div>
+                <div><i class="fas fa-envelope">&nbsp;&nbsp;sapekshpareek136@gmail.com</i></div>
+                <div><i class="fas fa-phone">&nbsp;&nbsp;+91 9988776655</i></div>
+            </div>
+            <div class="contact-form">
+                <h2>Contact Me</h2>
+                <form class="contact" action="" method="post">
+                    <input type="text" name="name" class="text-box" placeholder="Your Name" required>
+                    <input type="email" name="email" class="text-box" placeholder="Your Email" required>
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                    <input type="submit" value="Send" name="submit" class="send-btn">
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <p>&copy; Copyright 2023 <br>made with ❤️ by <a href="https://www.linkedin.com/in/sapekshpareek/"
+                    target="_blank">Sapeksh Pareek</a></p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
